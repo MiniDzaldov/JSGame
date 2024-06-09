@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    background-image: url("../background/b1.png");
+    background-repeat: no-repeat;
+    background-position: 20% -40%;
+}
+
+h3 {
+    color: red;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+
+h5 {
+    color: white;
+    font-size: 25px;
+    margin-left: 50%;
+    margin-top: 10%;
+    text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url("../background/btry600.png");
+        background-position: 20% -210%;
+    }
+
+    h3 {
+        margin-left: 35%;
+        margin-top: 13%;
+    }
+
+    h5 {
+        margin-left: 25%;
+    }
+
+}

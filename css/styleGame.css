@@ -1,0 +1,175 @@
+#game {
+  width: 1800px;
+  height: 400px;
+  margin-top: -3%;
+  margin-left: 5.5%;
+}
+
+.card {
+  width: 70px;
+  height: 20px;
+}
+
+body {
+  background-image: url('../background/s11.png');
+}
+
+h3 {
+  font-size: 40px;
+  color: red;
+  background-color: white;
+}
+
+#button {
+  margin-top: -1.8%;
+}
+
+#h3 {
+  width: 93.5vw;
+  height: 6.5vh;
+  margin-top: 0.9%;
+}
+
+
+#win {
+  display: flex;
+  flex-direction: column;
+  margin-top: -4%;
+}
+
+#mwin {
+  display: none;
+}
+
+#mwin1 {
+  display: none;
+  margin-top: 1%;
+}
+
+.mwg {
+  width: 270px;
+  height: 300px;
+}
+
+
+
+.button {
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline;
+  font-family: Arial;
+  font-size: 20px;
+  padding: 8px 10px;
+  text-align: center;
+  text-decoration: none;
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+@-webkit-keyframes glowing {
+  0% {
+    background-color: #B20000;
+    -webkit-box-shadow: 0 0 3px #B20000;
+  }
+
+  50% {
+    background-color: #FF0000;
+    -webkit-box-shadow: 0 0 40px #FF0000;
+  }
+
+  100% {
+    background-color: #B20000;
+    -webkit-box-shadow: 0 0 3px #B20000;
+  }
+}
+
+@-moz-keyframes glowing {
+  0% {
+    background-color: #B20000;
+    -moz-box-shadow: 0 0 3px #B20000;
+  }
+
+  50% {
+    background-color: #FF0000;
+    -moz-box-shadow: 0 0 40px #FF0000;
+  }
+
+  100% {
+    background-color: #B20000;
+    -moz-box-shadow: 0 0 3px #B20000;
+  }
+}
+
+@-o-keyframes glowing {
+  0% {
+    background-color: #B20000;
+    box-shadow: 0 0 3px #B20000;
+  }
+
+  50% {
+    background-color: #FF0000;
+    box-shadow: 0 0 40px #FF0000;
+  }
+
+  100% {
+    background-color: #B20000;
+    box-shadow: 0 0 3px #B20000;
+  }
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #B20000;
+    box-shadow: 0 0 3px #B20000;
+  }
+
+  50% {
+    background-color: #FF0000;
+    box-shadow: 0 0 40px #FF0000;
+  }
+
+  100% {
+    background-color: #B20000;
+    box-shadow: 0 0 3px #B20000;
+  }
+}
+
+
+
+
+/* match to small screen*/
+@media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  #button {
+    margin-top: -1%;
+  }
+
+  .button {
+    position: fixed;
+  }
+
+  #game {
+    width: 680px;
+    height: 1000px;
+    margin-top: 2.2%;
+  }
+
+  .card{
+    width: 70px;
+    height: 20px;
+  }
+
+  #br {
+    margin-top: 10px;
+  }
+
+
+}
